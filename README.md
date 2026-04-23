@@ -57,6 +57,11 @@ UNKNOWN_DIR = "unknown_captures/"
 
 ## API Endpoints
 
+## API Endpoints
+
+> **Base URL (local):** `http://localhost:5001`  
+> **Base URL (production):** `https://face-recognition-ai.onrender.com` ← update this after deployment
+
 ### `GET /health`
 Check if the API is running.
 
