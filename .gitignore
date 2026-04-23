@@ -1,0 +1,15 @@
+# Never push these
+venv/
+__pycache__/
+*.pyc
+
+# Keep folders but ignore contents
+face_db/*.pkl
+unknown_captures/*.jpg
+dataset/arij/
+dataset/wassim/
+dataset/yasmine/
+
+# Model weights (downloaded automatically by DeepFace)
+*.h5
+.deepface/
